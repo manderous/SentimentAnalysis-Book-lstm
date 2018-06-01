@@ -11,7 +11,7 @@ README.txt文件按照实验先后顺序，介绍了各文件。<br>
 
 (1)
 
-data_visualization.py：可视化句子长度的分布（python文件）
+data_visualization.py：可视化句子长度的分布（python文件）<br>
     输入：.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件
 	  .\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件
 
