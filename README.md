@@ -31,6 +31,7 @@ README.txt文件按照实验先后顺序，介绍了各文件。<br>
 .\lib\wordIndexVector.npy：数字索引词向量变量<br>
 
 ## (4)zhwiki_2017_03.sg_50d.word2vec：搜狗词向量语料（word2vec文件）
+百度云资源：https://pan.baidu.com/s/1C94HXCCWOmX-W4IbajXFyA
 
 ## (5)lstm_test.py：lstm模型（python文件）
 可在tensorboard上查看实验结果<br>
