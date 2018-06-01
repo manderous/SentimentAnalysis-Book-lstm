@@ -12,26 +12,31 @@ README.txt文件按照实验先后顺序，介绍了各文件。<br>
 (1)
 
 data_visualization.py：可视化句子长度的分布（python文件）<br>
-输入：.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
-  .\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件<br>
+输入：<br>
+.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
+.\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件<br>
 
 (2)
 
-word_to_index.py：生成积极文本和消极文本的词语索引，保存至文本文件中（python文件）
-    输入：.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件
-	  .\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件
+word_to_index.py：生成积极文本和消极文本的词语索引，保存至文本文件中（python文件）<br>
+输入：<br>.
+\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
+.\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件<br>
 
-    输出：.\lib\processed_ID_neg.txt：积极文本的词语索引
-	  .\lib\processed_ID_pos.txt：消极文本的词语索引
+输出：<br>
+.\lib\processed_ID_neg.txt：积极文本的词语索引<br>
+.\lib\processed_ID_pos.txt：消极文本的词语索引<br>
 
 (3)
 
-word2vec_test.py：导入搜狗词向量语料加载，将积极文本和消极文本的词语生成词向量，保存至文本文件中（python文件）
-    输入：.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件
-	  .\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件
+word2vec_test.py：导入搜狗词向量语料加载，将积极文本和消极文本的词语生成词向量，保存至文本文件中（python文件）<br>
+输入：<br>
+.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
+.\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件<br>
 
-    输出：.\lib\wordsList.npy：数字索引词语变量
-	  .\lib\wordIndexVector.npy：数字索引词向量变量
+输出：<br>
+.\lib\wordsList.npy：数字索引词语变量<br>
+.\lib\wordIndexVector.npy：数字索引词向量变量<br>
 
 (4)
 
@@ -39,24 +44,24 @@ zhwiki_2017_03.sg_50d.word2vec：搜狗词向量语料（word2vec文件）
 
 (5)
 
-lstm_test.py：lstm模型（python文件）
-    可在tensorboard上查看实验结果
-    tensorboard启动方法：
-        <1>首先cmd找到命令提示符的对话框；
-        <2>然后cd切换自己的tensorboard所在的文件路径（我的tensorboard路径是：Anaconda3\envs\tensorflow-gpu\Scripts）；
-	<3>（如果当前的python不是在tensorflow环境下）执行命令activate tensorflow-gpu（我的是gpu版本的tensorflow）；
-	<4>执行命令tensorboard --logdir=logs（其中logs=tensorflow代码运行生成的events文件，当logs 中有多个events时，会生成tensorboard的scalar 的对比图，但tensorboard的graph只会展示最新的结果）；
-	<5>把命令提示符的对话框最终生成的网址(http://DESKTOP-S2Q1MOS:6006，每个人的可能不一样)copy到浏览器中打开即可。
+lstm_test.py：lstm模型（python文件）<br>
+可在tensorboard上查看实验结果<br>
+tensorboard启动方法：<br>
+<1>首先cmd找到命令提示符的对话框；<br>
+<2>然后cd切换自己的tensorboard所在的文件路径（我的tensorboard路径是：Anaconda3\envs\tensorflow-gpu\Scripts）；<br>
+<3>（如果当前的python不是在tensorflow环境下）执行命令activate tensorflow-gpu（我的是gpu版本的tensorflow）；<br>
+<4>执行命令tensorboard --logdir=logs（其中logs=tensorflow代码运行生成的events文件，当logs 中有多个events时，会生成tensorboard的scalar 的对比图，但tensorboard的graph只会展示最新的结果）；<br>
+<5>把命令提示符的对话框最终生成的网址(http://DESKTOP-S2Q1MOS:6006，每个人的可能不一样)copy到浏览器中打开即可。<br>
 
 (6)
 
-lstm_multi_test.py：两层lstm模型（python文件）
-    可在tensorboard上查看实验结果
+lstm_multi_test.py：两层lstm模型（python文件）<br>
+可在tensorboard上查看实验结果
 
 (7)
 
-lstm_bi_test.py：双向lstm模型（python文件）
-    可在tensorboard上查看实验结果
+lstm_bi_test.py：双向lstm模型（python文件）<br>
+可在tensorboard上查看实验结果
 
 (8)
 
@@ -80,12 +85,12 @@ pp_multi_maxseqlen.py：关于“两层lstm模型”的灵敏度分析（对句�
 
 (13)
 
-lib文件夹下的数据文件介绍：
-Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）
-Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）
-processed_ID_neg.txt：积极文本的词语索引（txt文件）
-processed_ID_pos.txt：消极文本的词语索引（txt文件）
-wordsList.npy：数字索引词语变量（npy文件）
-wordIndexVector.npy：数字索引词向量变量（npy文件）
+lib文件夹下的数据文件介绍：<br>
+Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
+Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
+processed_ID_neg.txt：积极文本的词语索引（txt文件）<br>
+processed_ID_pos.txt：消极文本的词语索引（txt文件）<br>
+wordsList.npy：数字索引词语变量（npy文件）<br>
+wordIndexVector.npy：数字索引词向量变量（npy文件）<br>
 
 (end)
