@@ -21,17 +21,17 @@
     * [(2)word_to_index.py](#(2)word_to_index.py)
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
-* [LSTM模型](#标题)
+* [LSTM模型](#LSTM模型)
     * [(5)lstm_test.py](#(5)lstm_test.py)
     * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
     * [(7)lstm_bi_test.py](#(7)lstm_bi_test.py)
     * [(8)addition.py](#(8)addition.py)
-* [灵敏度分析](#文本)
+* [灵敏度分析](#灵敏度分析)
     * [(9)pp_bi.py](#(9)pp_bi.py)
     * [(10)pp.py](#(10)pp.py)
     * [(11)pp_multi_lstmunits.py](#(11)pp_multi_lstmunits.py)
     * [(12)pp_multi_maxseqlen.py](#(12)pp_multi_maxseqlen.py)
-* [lib文件夹下的数据文件介绍](#lib文件夹下的数据文件介绍)
+* [(13)lib文件夹下的数据文件介绍](#(13)lib文件夹下的数据文件介绍)
 
 ****
 
