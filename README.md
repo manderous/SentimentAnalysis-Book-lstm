@@ -22,7 +22,6 @@
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
 * [lstm模型](#lstm模型)
-* [LSTM模型](#LSTM模型)
     * [(5)lstm_test.py](#(5)lstm_test.py)
     * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
     * [(7)lstm_bi_test.py](#(7)lstm_bi_test.py)
@@ -32,12 +31,11 @@
     * [(10)pp.py](#(10)pp.py)
     * [(11)pp_multi_lstmunits.py](#(11)pp_multi_lstmunits.py)
     * [(12)pp_multi_maxseqlen.py](#(12)pp_multi_maxseqlen.py)
-* [(13)lib文件夹下的数据文件介绍](#(13)lib文件夹下的数据文件介绍)
+* [(13)lib文件夹下的数据文件介绍](#lib文件夹下的数据文件介绍)
 
 ****
 
 ## 数据预处理
-
 ### (1)data_visualization.py
 #### 可视化句子长度的分布（python文件）
 输入：<br>
@@ -67,8 +65,6 @@
 百度云资源：https://pan.baidu.com/s/1C94HXCCWOmX-W4IbajXFyA
 
 ****
-
-## 模型
 
 ## lstm模型
 ### (5)lstm_test.py
@@ -110,7 +106,7 @@ tensorboard启动方法：<br>
 
 ****
 
-### (13)lib文件夹下的数据文件介绍：
+### lib文件夹下的数据文件介绍：
 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
 Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
 processed_ID_neg.txt：积极文本的词语索引（word_to_index.py生成的 txt文件）<br>
