@@ -1,6 +1,6 @@
 # SentimentAnalysis-Book-lstm
 
-这里是利用python3.6搭建tensorflow框架编程实现的一层、两层以及双向lstm模型，且最终可在tensorbosrd上查看实验结果的文件。README.txt文件按照实验先后顺序，介绍了各文件。如需进行实验，可按照以下步骤进行。
+这里是利用python3.6搭建tensorflow框架编程实现的一层、两层以及双向LSTM模型，且最终可在tensorbosrd上查看实验结果的文件。README.txt文件按照实验先后顺序，介绍了各文件。如需进行实验，可按照以下步骤进行。
 其中：<br>
 * （1）-（4）：数据预处理<br>
 * （5）-（8）：一层、两层以及双向lstm模型<br>
@@ -17,11 +17,11 @@
 
 ## 目录
 * [数据预处理](#数据预处理)
-    * [(1)data_visualization.py]((1)data_visualization.py)
+    * [(1)data_visualization.py](#(1)data_visualization.py)
     * [(2)word_to_index.py](#(2)word_to_index.py)
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
-* [lstm模型](#标题)
+* [LSTM模型](#标题)
     * [(5)lstm_test.py](#(5)lstm_test.py)
     * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
     * [(7)lstm_bi_test.py](#(7)lstm_bi_test.py)
@@ -34,6 +34,8 @@
 * [lib文件夹下的数据文件介绍](#lib文件夹下的数据文件介绍)
 
 ****
+
+## 数据预处理
 
 ## (1)data_visualization.py
 ### 可视化句子长度的分布（python文件）
@@ -63,6 +65,10 @@
 ### 搜狗词向量语料（word2vec文件）
 百度云资源：https://pan.baidu.com/s/1C94HXCCWOmX-W4IbajXFyA
 
+****
+
+## LSTM模型
+
 ## (5)lstm_test.py
 ### lstm模型（python文件）
 可在tensorboard上查看实验结果<br>
@@ -84,6 +90,10 @@ tensorboard启动方法：<br>
 ## (8)addition.py
 ### 改python文件下自定义了一些函数，方便lstm模型模型使用（python文件）
 
+****
+
+## 灵敏度分析
+
 ## (9)pp_bi.py
 ### 关于“双向lstm模型”的灵敏度分析（对学习率的灵敏度分析：learning_rate=1E-4；1E-5；1E-（python文件）
 
@@ -95,6 +105,8 @@ tensorboard启动方法：<br>
 
 ## (12)pp_multi_maxseqlen.py
 ### 关于“两层lstm模型”的灵敏度分析（对句子长度上限的灵敏度分析：maxSeqLength=25；36；38；40；43；45；47；49；55；60）（python文件）
+
+****
 
 ## (13)lib文件夹下的数据文件介绍：
 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
