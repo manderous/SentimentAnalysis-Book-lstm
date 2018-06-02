@@ -61,9 +61,9 @@ tensorboard启动方法：<br>
 ## (13)lib文件夹下的数据文件介绍：
 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
 Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
-processed_ID_neg.txt：积极文本的词语索引（txt文件）<br>
-processed_ID_pos.txt：消极文本的词语索引（txt文件）<br>
-wordsList.npy：数字索引词语变量（npy文件）<br>
-wordIndexVector.npy：数字索引词向量变量（npy文件）<br>
+processed_ID_neg.txt：积极文本的词语索引（word_to_index.py生成的 txt文件）<br>
+processed_ID_pos.txt：消极文本的词语索引（word_to_index.py生成的 txt文件）<br>
+wordsList.npy：数字索引词语变量（word2vec_test.py生成的 npy文件）<br>
+wordIndexVector.npy：数字索引词向量变量（word2vec_test.py生成的 npy文件）<br>
 
 ## (end)
