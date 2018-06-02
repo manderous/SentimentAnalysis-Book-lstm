@@ -27,11 +27,12 @@
     * [(7)lstm_bi_test.py](#(7)lstm_bi_test.py)
     * [(8)addition.py](#(8)addition.py)
 * [灵敏度分析](#灵敏度分析)
+* [(9)pp_bi.py](#(9)pp_bi.py)
     * [(9)pp_bi.py](#(9)pp_bi.py)
     * [(10)pp.py](#(10)pp.py)
     * [(11)pp_multi_lstmunits.py](#(11)pp_multi_lstmunits.py)
     * [(12)pp_multi_maxseqlen.py](#(12)pp_multi_maxseqlen.py)
-* [(13)lib文件夹下的数据文件介绍](#(13))
+* [(13)lib文件夹下的数据文件介绍](#lib文件夹下的数据文件介绍)
 
 ****
 
@@ -106,7 +107,7 @@ tensorboard启动方法：<br>
 
 ****
 
-### (13)lib文件夹下的数据文件介绍
+### lib文件夹下的数据文件介绍
 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
 Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
 processed_ID_neg.txt：积极文本的词语索引（word_to_index.py生成的 txt文件）<br>
