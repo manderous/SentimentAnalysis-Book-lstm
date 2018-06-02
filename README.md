@@ -47,9 +47,9 @@
 
 ### (2)word_to_index.py
 #### 生成积极文本和消极文本的词语索引，保存至文本文件中（python文件）
-输入：<br>.
+输入：<br>
 ```
-\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
+.\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
 .\lib\Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件<br>
 ```
 输出：<br>
@@ -83,10 +83,10 @@
 可在tensorboard上查看实验结果<br>
 tensorboard启动方法：<br>
 * <1>首先cmd找到命令提示符的对话框；
-* <2>然后cd切换自己的tensorboard所在的文件路径（我的tensorboard路径是：Anaconda3\envs\tensorflow-gpu\Scripts）；<br>
-* <3>（如果当前的python不是在tensorflow环境下）执行命令activate tensorflow-gpu（我的是gpu版本的tensorflow）；<br>
-* <4>执行命令tensorboard --logdir=logs（其中logs=tensorflow代码运行生成的events文件，当logs 中有多个events时，会生成tensorboard的scalar 的对比图，但tensorboard的graph只会展示最新的结果）；<br>
-* <5>把命令提示符的对话框最终生成的网址(http://DESKTOP-S2Q1MOS:6006， 每个人的可能不一样)复制到浏览器中打开即可。<br>
+* <2>然后cd切换自己的tensorboard所在的文件路径（我的tensorboard路径是：Anaconda3\envs\tensorflow-gpu\Scripts）；
+* <3>（如果当前的python不是在tensorflow环境下）执行命令activate tensorflow-gpu（我的是gpu版本的tensorflow）；
+* <4>执行命令tensorboard --logdir=logs（其中logs=tensorflow代码运行生成的events文件，当logs 中有多个events时，会生成tensorboard的scalar 的对比图，但tensorboard的graph只会展示最新的结果）；
+* <5>把命令提示符的对话框最终生成的网址(http://DESKTOP-S2Q1MOS:6006， 每个人的可能不一样)复制到浏览器中打开即可。
 
 ### (6)lstm_multi_test.py
 #### 两层lstm模型（python文件）
