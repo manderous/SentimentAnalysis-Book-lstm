@@ -21,7 +21,7 @@
     * [(2)word_to_index.py](#(2)word_to_index.py)
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
-* [LSTM模型](#LSTM模型)
+* [LSTM模型](#模型)
     * [(5)lstm_test.py](#(5)lstm_test.py)
     * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
     * [(7)lstm_bi_test.py](#(7)lstm_bi_test.py)
@@ -67,7 +67,7 @@
 
 ****
 
-## LSTM模型
+## 模型
 
 ### (5)lstm_test.py
 #### lstm模型（python文件）
