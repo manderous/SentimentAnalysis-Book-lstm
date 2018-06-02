@@ -21,7 +21,7 @@
     * [(2)word_to_index.py](#(2)word_to_index.py)
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
-* [lstm语法](#lstm语法)
+* [lstm模型](#lstm模型)
 * [LSTM模型](#LSTM模型)
     * [(5)lstm_test.py](#(5)lstm_test.py)
     * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
@@ -70,7 +70,7 @@
 
 ## 模型
 
-### lstm语法
+## lstm模型
 ### (5)lstm_test.py
 #### lstm模型（python文件）
 可在tensorboard上查看实验结果<br>
