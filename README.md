@@ -17,7 +17,7 @@
 
 ## 目录
 * [数据预处理](#数据预处理)
-    * [(1)data_visualization.py](#你是谁)
+    * [(1)data_visualization.py](#data_visualization.py)
     * [(2)word_to_index.py](#(2)word_to_index.py)
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
@@ -37,7 +37,7 @@
 
 ## 数据预处理
 
-### 你是谁
+### data_visualization.py
 #### 可视化句子长度的分布（python文件）
 输入：<br>
 .\lib\Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件<br>
