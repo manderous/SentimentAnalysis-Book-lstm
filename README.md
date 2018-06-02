@@ -17,21 +17,20 @@
 
 ## 目录
 * [数据预处理](#数据预处理)
-    * [(1)data_visualization.py](#data_visualization.py)
-    * [(2)word_to_index.py](#(2)word_to_index.py)
-    * [(3)word2vec_test.py](#(3)word2vec_test.py)
-    * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
+    * (1)data_visualization.py
+    * (2)word_to_index.py
+    * (3)word2vec_test.py
+    * (4)zhwiki_2017_03.sg_50d.word2vec
 * [lstm模型](#lstm模型)
-    * [(5)lstm_test.py](#(5)lstm_test.py)
-    * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
-    * [(7)lstm_bi_test.py](#(7)lstm_bi_test.py)
-    * [(8)addition.py](#(8)addition.py)
+    * (5)lstm_test.py
+    * (6)lstm_multi_test.py
+    * (7)lstm_bi_test.py
+    * (8)addition.py
 * [灵敏度分析](#灵敏度分析)
-* [(9)pp_bi.py](#(9)pp_bi.py)
-    * [(9)pp_bi.py](#(9)pp_bi.py)
-    * [(10)pp.py](#(10)pp.py)
-    * [(11)pp_multi_lstmunits.py](#(11)pp_multi_lstmunits.py)
-    * [(12)pp_multi_maxseqlen.py](#(12)pp_multi_maxseqlen.py)
+    * (9)pp_bi.py
+    * (10)pp.py
+    * (11)pp_multi_lstmunits.py
+    * (12)pp_multi_maxseqlen.py
 * [(13)lib文件夹下的数据文件介绍](#lib文件夹下的数据文件介绍)
 
 ****
@@ -82,10 +81,10 @@
 #### lstm模型（python文件）
 可在tensorboard上查看实验结果<br>
 tensorboard启动方法：<br>
-* <1>首先cmd找到命令提示符的对话框；
-* <2>然后cd切换自己的tensorboard所在的文件路径（我的tensorboard路径是：Anaconda3\envs\tensorflow-gpu\Scripts）；
-* <3>（如果当前的python不是在tensorflow环境下）执行命令activate tensorflow-gpu（我的是gpu版本的tensorflow）；
-* <4>执行命令tensorboard --logdir=logs（其中logs=tensorflow代码运行生成的events文件，当logs 中有多个events时，会生成tensorboard的scalar 的对比图，但tensorboard的graph只会展示最新的结果）；
+* 1 首先cmd找到命令提示符的对话框；
+* 2 然后cd切换自己的tensorboard所在的文件路径（我的tensorboard路径是：Anaconda3\envs\tensorflow-gpu\Scripts）；
+* 3 （如果当前的python不是在tensorflow环境下）执行命令activate tensorflow-gpu（我的是gpu版本的tensorflow）；
+* 4 执行命令tensorboard --logdir=logs（其中logs=tensorflow代码运行生成的events文件，当logs 中有多个events时，会生成tensorboard的scalar 的对比图，但tensorboard的graph只会展示最新的结果）；
 * <5>把命令提示符的对话框最终生成的网址(http://DESKTOP-S2Q1MOS:6006， 每个人的可能不一样)复制到浏览器中打开即可。
 
 ### (6)lstm_multi_test.py
