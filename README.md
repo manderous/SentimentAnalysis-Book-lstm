@@ -87,40 +87,45 @@
 * 5 把命令提示符的对话框最终生成的网址(http://DESKTOP-S2Q1MOS:6006， 每个人的可能不一样)复制到浏览器中打开即可。
 
 ### (6)lstm_multi_test.py
-#### 两层lstm模型（python文件）
-可在tensorboard上查看实验结果
+#### 两层lstm模型
+运行完该python文件之后，可在tensorboard上查看实验结果。（python文件）
 
 ### (7)lstm_bi_test.py
-#### 双向lstm模型（python文件）
-可在tensorboard上查看实验结果
+#### 双向lstm模型
+运行完该python文件之后，可在tensorboard上查看实验结果。（python文件）
 
 ### (8)addition.py
-#### 改python文件下自定义了一些函数，方便lstm模型模型使用（python文件）
+#### 自定义函数汇总文件
+该python文件下自定义了一些函数，方便一层、两层以及双向lstm模型模型使用（python文件）
 
 ****
 
 ## 灵敏度分析
 
 ### (9)pp_bi.py
-#### 关于“双向lstm模型”的灵敏度分析（对学习率的灵敏度分析：learning_rate=1E-4；1E-5；1E-（python文件）
+#### 关于“双向lstm模型”的灵敏度分析
+对学习率的灵敏度分析：learning_rate=1E-4；1E-5；1E-6（python文件）
 
 ### (10)pp.py
-#### 关于“lstm模型”的灵敏度分析（对学习率的灵敏度分析：learning_rate=1E-4；1E-5；1E-6）（python文件）
+#### 关于“lstm模型”的灵敏度分析
+对学习率的灵敏度分析：learning_rate=1E-4；1E-5；1E-6（python文件）
 
 ### (11)pp_multi_lstmunits.py
-#### 关于“两层lstm模型”的灵敏度分析（对lstm单元个数的灵敏度分析：lstmUnits=50；70；100；110；120；130；140；150；180；200）（python文件）
+#### 关于“两层lstm模型”的灵敏度分析
+对lstm单元个数的灵敏度分析：lstmUnits=50；70；100；110；120；130；140；150；180；200（python文件）
 
 ### (12)pp_multi_maxseqlen.py
-#### 关于“两层lstm模型”的灵敏度分析（对句子长度上限的灵敏度分析：maxSeqLength=25；36；38；40；43；45；47；49；55；60）（python文件）
+#### 关于“两层lstm模型”的灵敏度分析
+对句子长度上限的灵敏度分析：maxSeqLength=25；36；38；40；43；45；47；49；55；60（python文件）
 
 ****
 
 ### lib文件夹下的数据文件介绍
-* 1 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
-* 2 Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）<br>
-* 3 processed_ID_neg.txt：积极文本的词语索引（word_to_index.py生成的 txt文件）<br>
-* 4 processed_ID_pos.txt：消极文本的词语索引（word_to_index.py生成的 txt文件）<br>
-* 5 wordsList.npy：数字索引词语变量（word2vec_test.py生成的 npy文件）<br>
-* 6 wordIndexVector.npy：数字索引词向量变量（word2vec_test.py生成的 npy文件）<br>
+* 1 Stop_WordsFilter_pos.txt：最初的笔记本评论-积极文本-经过分词、停用词过滤得到的文本文件（txt文件）
+* 2 Stop_WordsFilter_neg.txt：最初的笔记本评论-消极文本-经过分词、停用词过滤得到的文本文件（txt文件）
+* 3 processed_ID_neg.txt：积极文本的词语索引（word_to_index.py生成的 txt文件）
+* 4 processed_ID_pos.txt：消极文本的词语索引（word_to_index.py生成的 txt文件）
+* 5 wordsList.npy：数字索引词语变量（word2vec_test.py生成的 npy文件）
+* 6 wordIndexVector.npy：数字索引词向量变量（word2vec_test.py生成的 npy文件）
 
 ### (end)
