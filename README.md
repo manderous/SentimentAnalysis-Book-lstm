@@ -32,7 +32,7 @@
     * [(11)pp_multi_lstmunits.py](#(11)pp_multi_lstmunits.py)
     * [(12)pp_multi_maxseqlen.py](#(12)pp_multi_maxseqlen.py)
 * [(13)lib文件夹下的数据文件介绍](#(13)lib文件夹下的数据文件介绍)
-* [diff语法](#diff语法)
+* [lstm语法](#lstm语法)
 ****
 
 ## 数据预处理
@@ -116,5 +116,5 @@ processed_ID_pos.txt：消极文本的词语索引（word_to_index.py生成的 t
 wordsList.npy：数字索引词语变量（word2vec_test.py生成的 npy文件）<br>
 wordIndexVector.npy：数字索引词向量变量（word2vec_test.py生成的 npy文件）<br>
 
-### diff语法
+### lstm语法
 ### (end)
