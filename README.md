@@ -21,6 +21,7 @@
     * [(2)word_to_index.py](#(2)word_to_index.py)
     * [(3)word2vec_test.py](#(3)word2vec_test.py)
     * [(4)zhwiki_2017_03.sg_50d.word2vec](#(4)zhwiki_2017_03.sg_50d.word2vec)
+* [lstm语法](#lstm语法)
 * [LSTM模型](#LSTM模型)
     * [(5)lstm_test.py](#(5)lstm_test.py)
     * [(6)lstm_multi_test.py](#(6)lstm_multi_test.py)
@@ -32,7 +33,7 @@
     * [(11)pp_multi_lstmunits.py](#(11)pp_multi_lstmunits.py)
     * [(12)pp_multi_maxseqlen.py](#(12)pp_multi_maxseqlen.py)
 * [(13)lib文件夹下的数据文件介绍](#(13)lib文件夹下的数据文件介绍)
-* [lstm语法](#lstm语法)
+
 ****
 
 ## 数据预处理
@@ -69,6 +70,7 @@
 
 ## 模型
 
+### lstm语法
 ### (5)lstm_test.py
 #### lstm模型（python文件）
 可在tensorboard上查看实验结果<br>
@@ -116,5 +118,4 @@ processed_ID_pos.txt：消极文本的词语索引（word_to_index.py生成的 t
 wordsList.npy：数字索引词语变量（word2vec_test.py生成的 npy文件）<br>
 wordIndexVector.npy：数字索引词向量变量（word2vec_test.py生成的 npy文件）<br>
 
-### lstm语法
 ### (end)
